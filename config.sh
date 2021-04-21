@@ -22,7 +22,7 @@ export PYTHON_VERSION=3.7
 export IOC=ioc-rix-at2k2-calc
 
 # IOC startup command
-export IOC_COMMAND="ioc-rix-at2k2-calc --list-pvs --production"
+export IOC_COMMAND="ioc-satt-ladder-calc --list-pvs --production --system=AT2K2 --autosave_path=/reg/d/iocData/ioc-rix-at2k2-calc/iocInfo/autosave.json"
 
 # IOC PV prefix.
 export PREFIX=AT2K2:CALC
