@@ -16,6 +16,7 @@ run_ioc() {
     echo ""
     echo "* Running the IOC..."
     set -ex
+
     cd ${TOP}
     ${IOC_COMMAND} --prefix "${PREFIX}" --list-pvs
 }
