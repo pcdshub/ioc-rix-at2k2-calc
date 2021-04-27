@@ -15,7 +15,7 @@ export TOP="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 export PACKAGES=solid-attenuator
 
 # Python version to use for the environment.
-export PYTHON_VERSION=3.7
+export PYTHON_VERSION=3.8
 
 # -- Boot --
 # Set IOC to your IOC name.  It affects where the log files go, too.
